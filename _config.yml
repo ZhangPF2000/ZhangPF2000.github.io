@@ -104,5 +104,5 @@ theme: amazing
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/ZhangPF2000/ZhangPF2000.github.io.git
+  repo: git@github.com:ZhangPF2000/ZhangPF2000.github.io.git
   branch: main
