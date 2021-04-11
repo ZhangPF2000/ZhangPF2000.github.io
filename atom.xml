@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://zhangpf2000.github.io/"/>
-  <updated>2021-04-03T13:53:37.013Z</updated>
+  <updated>2021-04-11T03:54:19.858Z</updated>
   <id>https://zhangpf2000.github.io/</id>
   
   <author>
@@ -15,6 +15,61 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>fcitx使用搜狗皮肤</title>
+    <link href="https://zhangpf2000.github.io/2021/04/11/fcitx%E4%BD%BF%E7%94%A8%E6%90%9C%E7%8B%97%E7%9A%AE%E8%82%A4/"/>
+    <id>https://zhangpf2000.github.io/2021/04/11/fcitx%E4%BD%BF%E7%94%A8%E6%90%9C%E7%8B%97%E7%9A%AE%E8%82%A4/</id>
+    <published>2021-04-11T03:47:09.000Z</published>
+    <updated>2021-04-11T03:54:19.858Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><h1 id="fcitx-使用搜狗皮肤"><a href="#fcitx-使用搜狗皮肤" class="headerlink" title="fcitx 使用搜狗皮肤"></a>fcitx 使用搜狗皮肤</h1></blockquote><span id="more"></span><blockquote><p>前往<code>https://github.com/jorhelp/Fcitx_Skin</code>下载脚本文件<br><code>git clone https://github.com/jorhelp/Fcitx_Skin</code> &gt; <code>cd Fcitx_Skin</code><br>去<code>https://pinyin.sogou.com/skins/</code>下载皮肤到<code>Fcitx_Skin</code>文件夹下<br><code>./ssf2fcitx.py xxx.ssf</code><br>将生成的文件夹放到<code>~/.config/fcitx/skin</code>下,重启 fcitx 选择皮肤即可<br>如果使用的时候有部分偏差,请自行修改生成的<code>fcitx_skin.conf</code>或<code>skin.ini</code>等文件</p></blockquote><p>参考文章:<br><a href="https://github.com/jorhelp/Fcitx_Skin">脚本链接</a></p><h1 id="希望能对你有所帮助-p-o"><a href="#希望能对你有所帮助-p-o" class="headerlink" title="希望能对你有所帮助(p_o)"></a>希望能对你有所帮助(p_o)</h1>]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;h1 id=&quot;fcitx-使用搜狗皮肤&quot;&gt;&lt;a href=&quot;#fcitx-使用搜狗皮肤&quot; class=&quot;headerlink&quot; title=&quot;fcitx 使用搜狗皮肤&quot;&gt;&lt;/a&gt;fcitx 使用搜狗皮肤&lt;/h1&gt;&lt;/blockquote&gt;
+    
+    </summary>
+    
+    
+      <category term="linux" scheme="https://zhangpf2000.github.io/categories/linux/"/>
+    
+      <category term="fcitx" scheme="https://zhangpf2000.github.io/categories/linux/fcitx/"/>
+    
+    
+      <category term="fcitx" scheme="https://zhangpf2000.github.io/tags/fcitx/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>fcitx使用搜狗词库</title>
+    <link href="https://zhangpf2000.github.io/2021/04/11/fcitx%E4%BD%BF%E7%94%A8%E6%90%9C%E7%8B%97%E8%AF%8D%E5%BA%93/"/>
+    <id>https://zhangpf2000.github.io/2021/04/11/fcitx%E4%BD%BF%E7%94%A8%E6%90%9C%E7%8B%97%E8%AF%8D%E5%BA%93/</id>
+    <published>2021-04-11T03:23:28.000Z</published>
+    <updated>2021-04-11T03:46:53.716Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><h1 id="fcitx-使用搜狗词库"><a href="#fcitx-使用搜狗词库" class="headerlink" title="fcitx 使用搜狗词库"></a>fcitx 使用搜狗词库</h1><hr><p>简介: 在使用 debian 的时候,我是使用的 fcitx 框架+google 输入法<br>但是这个 fcitx 不是特别的好用,输入的时候没有在 win10 输入法的那种舒服感<br>至于词库,在输入的时候,不是特别的好用,今天无意间看到 fcitx 可以使用搜狗的词库<br>就试了试,下面是我的操作步骤</p></blockquote><p><a href="#手动配置">手动设置</a> &amp;&amp; <a href="#自动配置">自动配置</a></p><span id="more"></span><h2 id="手动配置"><a href="#手动配置" class="headerlink" title="手动配置"></a>手动配置</h2><ul><li>下载<a href="https://pinyin.sogou.com/dict/">搜狗词库文件</a>,下载的文件格式是<code>*.scel</code></li><li>这个格式的文件 fcitx 是无法使用的,fcitx 的词库文件是<code>*.mb</code>文件</li><li>将<code>scel</code>转换为<code>mb</code>格式<ul><li><code>sudo apt install fcitx-tools</code> 这是转换工具</li><li><code>scel2org xxx.scel -o xxx.org</code> 转换成org文件, org文件是可以查看的</li><li><code>cat *.org &gt; tot.org</code> 合并转换的org文件,</li><li>下载下面的两个文件<code>gbkpy.org</code>和<code>pyPhrase.org</code></li><li><code>https://raw.githubusercontent.com/LuoshuiTianyi/Varia/master/gbkpy.org</code></li><li><code>https://raw.githubusercontent.com/LuoshuiTianyi/Varia/master/pyPhrase.org</code></li><li><code>cat pyPhrase.org &gt;&gt; tot.org</code> 词汇合并</li><li><code>sort tot.org &gt; ord.org</code>  排序</li><li><code>uniq ord.org &gt; final.org</code> 去重复</li><li><code>createPYMB gbkpy.org final.org</code>  生成mb文件</li><li><code>cp *.mb ~/.config/fcitx/googlepinyin</code> 将生成的mb文件复制到配置文件下</li><li>重启fcitx即可</li></ul></li><li><a href="https://github.com/Ingram7/SogouWordSpider/tree/master/SogouWordSpider">批量下载搜狗词库的爬虫</a></li></ul><h2 id="自动配置"><a href="#自动配置" class="headerlink" title="自动配置"></a>自动配置</h2><blockquote><p><a href="https://download.zsxwz.com/dir/16220046-40179353-fd1d9a?40183169">下载地址</a><br>下载现成的文件也可以,上面的下载后也是两个<code>mb文件</code>,<br>将这两个文件放到<code>~/.config/fcitx/googlepinyin</code>下重启即可<br>这两个文件,应该是整合了很多的词库的,可以使用的</p></blockquote><p>参考文章:<br><a href="https://www.cnblogs.com/luoshuitianyi/p/11669619.html">Fcitx使用搜狗词库与皮肤</a></p><h1 id="希望能对你有所帮助-p-o"><a href="#希望能对你有所帮助-p-o" class="headerlink" title="希望能对你有所帮助(p_o)"></a>希望能对你有所帮助(p_o)</h1>]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;h1 id=&quot;fcitx-使用搜狗词库&quot;&gt;&lt;a href=&quot;#fcitx-使用搜狗词库&quot; class=&quot;headerlink&quot; title=&quot;fcitx 使用搜狗词库&quot;&gt;&lt;/a&gt;fcitx 使用搜狗词库&lt;/h1&gt;&lt;hr&gt;
+&lt;p&gt;简介: 在使用 debian 的时候,我是使用的 fcitx 框架+google 输入法&lt;br&gt;但是这个 fcitx 不是特别的好用,输入的时候没有在 win10 输入法的那种舒服感&lt;br&gt;至于词库,在输入的时候,不是特别的好用,今天无意间看到 fcitx 可以使用搜狗的词库&lt;br&gt;就试了试,下面是我的操作步骤&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;#手动配置&quot;&gt;手动设置&lt;/a&gt; &amp;amp;&amp;amp; &lt;a href=&quot;#自动配置&quot;&gt;自动配置&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="linux" scheme="https://zhangpf2000.github.io/categories/linux/"/>
+    
+      <category term="fcitx" scheme="https://zhangpf2000.github.io/categories/linux/fcitx/"/>
+    
+    
+      <category term="fcitx" scheme="https://zhangpf2000.github.io/tags/fcitx/"/>
+    
+  </entry>
   
   <entry>
     <title>debian升级软件后黑屏解决</title>
