@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://zhangpf2000.github.io/"/>
-  <updated>2021-04-14T08:22:09.852Z</updated>
+  <updated>2021-04-21T13:02:25.711Z</updated>
   <id>https://zhangpf2000.github.io/</id>
   
   <author>
@@ -17,9 +17,44 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Linux_Bash_学习之路</title>
+    <link href="https://zhangpf2000.github.io/2021/04/21/Linux_Bash/Linux_Bash_%E5%AD%A6%E4%B9%A0%E4%B9%8B%E8%B7%AF.html/"/>
+    <id>https://zhangpf2000.github.io/2021/04/21/Linux_Bash/Linux_Bash_%E5%AD%A6%E4%B9%A0%E4%B9%8B%E8%B7%AF.html/</id>
+    <published>2021-04-21T12:37:29.000Z</published>
+    <updated>2021-04-21T13:02:25.711Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>现在开始一系列新的文章<br>用于记录我学习 linux_Bash 的过程<br>学习 linux Bash 脚本是为了更好的了解 linux 和方便日常的操作<br>自动化的使用脚本能够节省更多的时间去做事情<br>举例: 我写博客使用的是 hexo,可以创建两个脚本文件<code>s.sh</code>和<code>d.sh</code><br>用于预览博客和推送博客到 github 上<br>使用的时候就直接运行脚本即可</p><hr><p>Bash 脚本构成中全是 linux 中的命令<br>在学习过程中能更好的学习 linxu 命令<br>我借用了学校图书馆中的书来辅助我的学习<br>书籍信息:</p><ul><li>书名: Linux Bash 编程与脚本应用实战</li><li>ISBN: 978-7-302-38446-5</li><li>封面:</li><li><img src="http://image12.bookschina.com/2015/20150218/6764488.jpg" alt="图书封面"></li></ul></blockquote><span id="more"></span><blockquote><p>目前这本书我已经看了一半了<br>还可以,难度也不是太大<br>但是在学习的过程中,发现书里面的命令在我的电脑上的结果和书中的不一样<br>书的前面介绍了很多 linux 的基础知识,很不错<br>有好些知识是我还没了解过的,看完前面的对后面的脚本编写有很大的好处<br>这几天把这本书的内容学学,并且通过 blog 的方式记录下来<br>我估计这本书很快就可以学完了,<br>学完之后再学学其他借的基本书:<br><code>Linux从入门到精通</code>和<code>Linux操作系统</code>(感觉还不错的样子)</p><p>书的目录<br>第 01 章: 学习 Shell 的背景知识—linux 系统<br>第 02 章: 迈出 Shell 脚本编程第一步<br>第 03 章: Shell 常用命令大演练<br>第 04 章: Shell 脚本中的变量<br>第 05 章: Shell 脚本中的特殊符号<br>第 06 章: Linux 中的文件处理<br>第 07 章: Shell 脚本中的分支结构<br>第 08 章: Shell 中的循环结构<br>第 09 章: Shell 中的函数<br>第 10 章: Shell 脚本编写技巧<br>第 11 章: 正则表达式<br>第 12 章: Shell 中的文本搜索工具—grep 家族<br>第 13 章: sed 编程<br>第 14 章: gawk 编程<br>第 15 章: 脚本控制<br>第 16 章: 脚本运行的优化<br>第 17 章: Shell 实战之系统管理<br>第 18 章: Shell 实战之数据库操作</p></blockquote><blockquote><p>该书是使用的 ubuntu 系统,整体来说,区别不是太大</p></blockquote><h1 id="希望能对你有所帮助-p-o"><a href="#希望能对你有所帮助-p-o" class="headerlink" title="希望能对你有所帮助(p_o)"></a>希望能对你有所帮助(p_o)</h1>]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;h1 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h1&gt;&lt;p&gt;现在开始一系列新的文章&lt;br&gt;用于记录我学习 linux_Bash 的过程&lt;br&gt;学习 linux Bash 脚本是为了更好的了解 linux 和方便日常的操作&lt;br&gt;自动化的使用脚本能够节省更多的时间去做事情&lt;br&gt;举例: 我写博客使用的是 hexo,可以创建两个脚本文件&lt;code&gt;s.sh&lt;/code&gt;和&lt;code&gt;d.sh&lt;/code&gt;&lt;br&gt;用于预览博客和推送博客到 github 上&lt;br&gt;使用的时候就直接运行脚本即可&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Bash 脚本构成中全是 linux 中的命令&lt;br&gt;在学习过程中能更好的学习 linxu 命令&lt;br&gt;我借用了学校图书馆中的书来辅助我的学习&lt;br&gt;书籍信息:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;书名: Linux Bash 编程与脚本应用实战&lt;/li&gt;
+&lt;li&gt;ISBN: 978-7-302-38446-5&lt;/li&gt;
+&lt;li&gt;封面:&lt;/li&gt;
+&lt;li&gt;&lt;img src=&quot;http://image12.bookschina.com/2015/20150218/6764488.jpg&quot; alt=&quot;图书封面&quot;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+    
+      <category term="linux" scheme="https://zhangpf2000.github.io/categories/linux/"/>
+    
+      <category term="Bash" scheme="https://zhangpf2000.github.io/categories/linux/Bash/"/>
+    
+    
+      <category term="linux" scheme="https://zhangpf2000.github.io/tags/linux/"/>
+    
+  </entry>
+  
+  <entry>
     <title>debian10安装fcitx5</title>
-    <link href="https://zhangpf2000.github.io/2021/04/14/debian10%E5%AE%89%E8%A3%85fcitx5/"/>
-    <id>https://zhangpf2000.github.io/2021/04/14/debian10%E5%AE%89%E8%A3%85fcitx5/</id>
+    <link href="https://zhangpf2000.github.io/2021/04/14/debian10%E5%AE%89%E8%A3%85fcitx5.html/"/>
+    <id>https://zhangpf2000.github.io/2021/04/14/debian10%E5%AE%89%E8%A3%85fcitx5.html/</id>
     <published>2021-04-14T07:23:25.000Z</published>
     <updated>2021-04-14T08:22:09.852Z</updated>
     
@@ -54,8 +89,8 @@
   
   <entry>
     <title>fcitx使用搜狗皮肤</title>
-    <link href="https://zhangpf2000.github.io/2021/04/11/fcitx%E4%BD%BF%E7%94%A8%E6%90%9C%E7%8B%97%E7%9A%AE%E8%82%A4/"/>
-    <id>https://zhangpf2000.github.io/2021/04/11/fcitx%E4%BD%BF%E7%94%A8%E6%90%9C%E7%8B%97%E7%9A%AE%E8%82%A4/</id>
+    <link href="https://zhangpf2000.github.io/2021/04/11/fcitx%E4%BD%BF%E7%94%A8%E6%90%9C%E7%8B%97%E7%9A%AE%E8%82%A4.html/"/>
+    <id>https://zhangpf2000.github.io/2021/04/11/fcitx%E4%BD%BF%E7%94%A8%E6%90%9C%E7%8B%97%E7%9A%AE%E8%82%A4.html/</id>
     <published>2021-04-11T03:47:09.000Z</published>
     <updated>2021-04-14T08:22:41.396Z</updated>
     
@@ -81,8 +116,8 @@
   
   <entry>
     <title>fcitx使用搜狗词库</title>
-    <link href="https://zhangpf2000.github.io/2021/04/11/fcitx%E4%BD%BF%E7%94%A8%E6%90%9C%E7%8B%97%E8%AF%8D%E5%BA%93/"/>
-    <id>https://zhangpf2000.github.io/2021/04/11/fcitx%E4%BD%BF%E7%94%A8%E6%90%9C%E7%8B%97%E8%AF%8D%E5%BA%93/</id>
+    <link href="https://zhangpf2000.github.io/2021/04/11/fcitx%E4%BD%BF%E7%94%A8%E6%90%9C%E7%8B%97%E8%AF%8D%E5%BA%93.html/"/>
+    <id>https://zhangpf2000.github.io/2021/04/11/fcitx%E4%BD%BF%E7%94%A8%E6%90%9C%E7%8B%97%E8%AF%8D%E5%BA%93.html/</id>
     <published>2021-04-11T03:23:28.000Z</published>
     <updated>2021-04-14T08:01:54.379Z</updated>
     
@@ -111,8 +146,8 @@
   
   <entry>
     <title>debian升级软件后黑屏解决</title>
-    <link href="https://zhangpf2000.github.io/2021/04/03/debian%E5%8D%87%E7%BA%A7%E8%BD%AF%E4%BB%B6%E5%90%8E%E9%BB%91%E5%B1%8F%E8%A7%A3%E5%86%B3/"/>
-    <id>https://zhangpf2000.github.io/2021/04/03/debian%E5%8D%87%E7%BA%A7%E8%BD%AF%E4%BB%B6%E5%90%8E%E9%BB%91%E5%B1%8F%E8%A7%A3%E5%86%B3/</id>
+    <link href="https://zhangpf2000.github.io/2021/04/03/debian%E5%8D%87%E7%BA%A7%E8%BD%AF%E4%BB%B6%E5%90%8E%E9%BB%91%E5%B1%8F%E8%A7%A3%E5%86%B3.html/"/>
+    <id>https://zhangpf2000.github.io/2021/04/03/debian%E5%8D%87%E7%BA%A7%E8%BD%AF%E4%BB%B6%E5%90%8E%E9%BB%91%E5%B1%8F%E8%A7%A3%E5%86%B3.html/</id>
     <published>2021-04-03T12:58:30.000Z</published>
     <updated>2021-04-14T08:02:48.888Z</updated>
     
@@ -200,8 +235,8 @@
   
   <entry>
     <title>升级debian内核</title>
-    <link href="https://zhangpf2000.github.io/2021/04/02/%E5%8D%87%E7%BA%A7debian%E5%86%85%E6%A0%B8/"/>
-    <id>https://zhangpf2000.github.io/2021/04/02/%E5%8D%87%E7%BA%A7debian%E5%86%85%E6%A0%B8/</id>
+    <link href="https://zhangpf2000.github.io/2021/04/02/%E5%8D%87%E7%BA%A7debian%E5%86%85%E6%A0%B8.html/"/>
+    <id>https://zhangpf2000.github.io/2021/04/02/%E5%8D%87%E7%BA%A7debian%E5%86%85%E6%A0%B8.html/</id>
     <published>2021-04-02T02:59:48.000Z</published>
     <updated>2021-04-03T13:57:18.342Z</updated>
     
@@ -227,8 +262,8 @@
   
   <entry>
     <title>前几天的意见烦心事</title>
-    <link href="https://zhangpf2000.github.io/2021/04/01/%E5%89%8D%E5%87%A0%E5%A4%A9%E7%9A%84%E6%84%8F%E8%A7%81%E7%83%A6%E5%BF%83%E4%BA%8B/"/>
-    <id>https://zhangpf2000.github.io/2021/04/01/%E5%89%8D%E5%87%A0%E5%A4%A9%E7%9A%84%E6%84%8F%E8%A7%81%E7%83%A6%E5%BF%83%E4%BA%8B/</id>
+    <link href="https://zhangpf2000.github.io/2021/04/01/%E5%89%8D%E5%87%A0%E5%A4%A9%E7%9A%84%E6%84%8F%E8%A7%81%E7%83%A6%E5%BF%83%E4%BA%8B.html/"/>
+    <id>https://zhangpf2000.github.io/2021/04/01/%E5%89%8D%E5%87%A0%E5%A4%A9%E7%9A%84%E6%84%8F%E8%A7%81%E7%83%A6%E5%BF%83%E4%BA%8B.html/</id>
     <published>2021-04-01T11:09:07.000Z</published>
     <updated>2021-04-01T11:57:05.428Z</updated>
     
@@ -249,8 +284,8 @@
   
   <entry>
     <title>hexo Github双分支</title>
-    <link href="https://zhangpf2000.github.io/2021/03/16/hexo-Github%E5%8F%8C%E5%88%86%E6%94%AF/"/>
-    <id>https://zhangpf2000.github.io/2021/03/16/hexo-Github%E5%8F%8C%E5%88%86%E6%94%AF/</id>
+    <link href="https://zhangpf2000.github.io/2021/03/16/hexo-Github%E5%8F%8C%E5%88%86%E6%94%AF.html/"/>
+    <id>https://zhangpf2000.github.io/2021/03/16/hexo-Github%E5%8F%8C%E5%88%86%E6%94%AF.html/</id>
     <published>2021-03-16T08:24:45.000Z</published>
     <updated>2021-03-31T11:03:25.693Z</updated>
     
@@ -279,8 +314,8 @@
   
   <entry>
     <title>Hexo+Github Pages搭建个人博客</title>
-    <link href="https://zhangpf2000.github.io/2021/03/13/Hexo-Github-Pages%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
-    <id>https://zhangpf2000.github.io/2021/03/13/Hexo-Github-Pages%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</id>
+    <link href="https://zhangpf2000.github.io/2021/03/13/Hexo-Github-Pages%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2.html/"/>
+    <id>https://zhangpf2000.github.io/2021/03/13/Hexo-Github-Pages%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2.html/</id>
     <published>2021-03-13T12:39:16.000Z</published>
     <updated>2021-03-31T11:03:25.693Z</updated>
     
@@ -312,8 +347,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://zhangpf2000.github.io/2021/03/12/hello-world/"/>
-    <id>https://zhangpf2000.github.io/2021/03/12/hello-world/</id>
+    <link href="https://zhangpf2000.github.io/2021/03/12/hello-world.html/"/>
+    <id>https://zhangpf2000.github.io/2021/03/12/hello-world.html/</id>
     <published>2021-03-11T16:00:00.000Z</published>
     <updated>2021-04-01T08:59:19.907Z</updated>
     
