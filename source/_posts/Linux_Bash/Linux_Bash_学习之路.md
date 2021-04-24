@@ -8,7 +8,7 @@ mathJax: false
 date: 2021-04-21 20:37:29
 thumbnail:
 tags:
-  - linux
+  - Bash
 categories:
   - linux
   - Bash
